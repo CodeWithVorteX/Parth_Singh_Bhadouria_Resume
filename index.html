@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parth Singh Bhadouria - Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <div class="logo"><i class="fas fa-user"></i> Parth Bhadouria</div>
+            <ul class="nav-links">
+                <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#internships"><i class="fas fa-briefcase"></i> Internships</a></li>
+                <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+                <li><a href="#projects"><i class="fas fa-folder-open"></i> Projects</a></li>
+                <li><a href="#achievements"><i class="fas fa-trophy"></i> Achievements</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section animate">
+        <div class="home-content">
+            <h1>Hi, I'm Parth Singh Bhadouria</h1>
+            <p>Computer Science Student | Web Developer | AI Enthusiast</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section animate">
+        <div class="container">
+            <h2><i class="fas fa-info-circle"></i> About Me</h2>
+            <p>Hi! I'm Parth Singh Bhadouria from Bhopal, Madhya Pradesh. Passionate about building websites, software, and exploring AI applications. Strong problem-solving, teamwork, and communication skills.</p>
+            <a href="Parth_Singh_Bhadouria_Resume.pdf" download class="btn download-btn">
+                <i class="fas fa-download"></i> Download Resume
+            </a>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education-section animate">
+        <div class="container">
+            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+            <div class="card animate">
+                <h3>B.Tech in Computer Science & Engineering</h3>
+                <p>Jagran Lakecity University, Bhopal</p>
+                <p>Expected Graduation: 2029</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internship Section -->
+    <section id="internships" class="section internship-section animate">
+        <div class="container">
+            <h2><i class="fas fa-briefcase"></i> Internship Experience</h2>
+            <div class="card animate">
+                <h3>Intern – Website & Software Development, CRM, Campaign Planning</h3>
+                <ul>
+                    <li>Contributing to website development and management</li>
+                    <li>Supporting software development and CRM management</li>
+                    <li>Assisting in campaign planning and execution</li>
+                </ul>
+            </div>
+            <div class="card animate">
+                <h3>Upcoming Internship – AI-based Company (Interview Scheduled)</h3>
+                <ul>
+                    <li>Focus on artificial intelligence and related applications</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section animate">
+        <div class="container">
+            <h2><i class="fas fa-tools"></i> Skills</h2>
+            <div class="skills-container">
+                <div class="skill-bar-container">
+                    <h3>HTML</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level html" data-skill="90%"></div>
+                    </div>
+                </div>
+                <div class="skill-bar-container">
+                    <h3>CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level css" data-skill="85%"></div>
+                    </div>
+                </div>
+                <div class="skill-bar-container">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level js" data-skill="75%"></div>
+                    </div>
+                </div>
+                <div class="skill-bar-container">
+                    <h3>Python</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level python" data-skill="70%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section animate">
+        <div class="container">
+            <h2><i class="fas fa-folder-open"></i> Projects & Personal Work</h2>
+            <div class="projects-container">
+                <div class="card project-card animate">
+                    <h3>Portfolio Website</h3>
+                    <p>Designed and developed a personal portfolio website using HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section achievements-section animate">
+        <div class="container">
+            <h2><i class="fas fa-trophy"></i> Achievements & Activities</h2>
+            <ul>
+                <li>Going to participate in Hackathons (college and external)</li>
+                <li>Completed Website Development course on Udemy</li>
+                <li>Completed Masai School Software Development Program</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section animate">
+        <div class="container">
+            <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Parth Singh Bhadouria. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
